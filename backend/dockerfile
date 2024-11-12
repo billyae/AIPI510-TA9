@@ -1,6 +1,6 @@
 FROM python:3.9
 WORKDIR /app
 COPY ML_demo_backend.py model.pkl /app/
-RUN pip install flask numpy pickle-mixin
+RUN pip install flask numpy pickle-mixin scikit-learn
 EXPOSE 5000
 CMD ["python", "ML_demo_backend.py"]
