@@ -4,7 +4,7 @@ import requests
 from PIL import Image
 
 # Set up the backend API URL
-API_URL = 'http://localhost:5000/predict'
+API_URL = 'http://34.27.81.23:5000/predict'
 
 # Page layout settings
 st.set_page_config(page_title="Enhanced Decision Tree Prediction Demo", layout="centered")
